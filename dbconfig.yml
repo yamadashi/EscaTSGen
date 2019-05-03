@@ -1,0 +1,10 @@
+development:
+  dialect: mysql
+  datasource: root:password@tcp(localhost:3306)/escaTSGen?parseTime=true&charset=utf8mb4&interpolateParams=true
+  dir: migrations
+
+test:
+  dialect: mysql
+  datasource: root:password@tcp(localhost:3306)/test-escaTSGen?parseTime=true&charset=utf8mb4&interpolateParams=true
+  dir: migrations
+
